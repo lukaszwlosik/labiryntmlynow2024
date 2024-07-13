@@ -1,0 +1,427 @@
+@media (max-width: 96em) {
+  #index-gallery .gallery-img {
+    width: 90%;
+    height: 50rem;
+  }
+}
+@media (max-width: 77em) {
+  html {
+    font-size: 56.25%;
+  }
+  .step-img {
+    width: 55%;
+  }
+  .step-img-box::before {
+    width: 65%;
+  }
+}
+@media (max-width: 68em) {
+  html {
+    font-size: 50%;
+  }
+  .homepage-recomendation-icon {
+    width: 4rem;
+  }
+  .recommend-content {
+    padding: 12.8rem 4.8rem 9.6rem;
+  }
+  .aside-gallery {
+    padding: 0 6.4rem 6.4rem;
+  }
+  #index-gallery {
+    grid-template-areas:
+      "gallery-h3 gallery-h3"
+      "img1 img2"
+      "img3 img4"
+      "img5 img6";
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 60em) {
+  .step-img {
+    width: 60%;
+  }
+  .step-img-box::before {
+    width: 68%;
+  }
+  #h1-homepage {
+    width: 90vw;
+  }
+}
+@media (max-width: 54em) {
+  #homepage header h1 {
+    font-size: 6.4rem;
+  }
+  #homepage-main {
+    max-height: 80vh;
+  }
+  .recommend-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.4rem 9.6rem;
+  }
+  #recommend-box {
+    margin-bottom: 38.4rem;
+  }
+  .users-recommendation {
+    margin: 3.2rem;
+  }
+  .footer-logo-img {
+    width: 16rem;
+  }
+  #footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .homepage-footer {
+    margin-top: 12.6rem;
+  }
+  .left-footer-box {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  #franek-main-photo {
+    width: 90%;
+    height: auto;
+  }
+  .hours-list-day {
+    width: 15vw;
+  }
+}
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+
+  .menu-section,
+  .second-menu-section {
+    display: none;
+  }
+  #hamburger-icon {
+    display: block;
+  }
+  #h1-homepage {
+    width: 80vw;
+  }
+  .step-img {
+    height: 100%;
+    width: 80%;
+  }
+  .step-description {
+    line-height: 1.5;
+    font-size: 2rem;
+  }
+  .heading-secondary {
+    font-size: 5.2rem;
+  }
+  .main-text-content .heading-secondary {
+    font-size: 4.6rem;
+  }
+
+  #labirynt-google-map {
+    width: 65rem;
+    height: 55rem;
+  }
+  .price-list-day {
+    width: 35vw;
+    font-size: 2rem;
+  }
+  .price-list-price {
+    font-size: 2.4rem;
+  }
+  .hours-list-day {
+    width: 25vw;
+    font-size: 2.2rem;
+  }
+  .small-section-text {
+    font-size: 1.8rem;
+  }
+  .price-list-hour {
+    line-height: 1.7;
+    font-size: 2rem;
+    gap: 1.6rem;
+  }
+  .contact-aside {
+    margin-bottom: 12.8rem;
+  }
+}
+@media (max-width: 43em) {
+  .price-list-hour div li {
+    padding: 0 3.2rem 0 0;
+    line-height: 1.5;
+  }
+  #recommend-box {
+    margin: 9.6rem 0;
+  }
+  .recommend-content {
+    row-gap: 3.2rem;
+  }
+  #homepage-main {
+    max-height: 70vh;
+  }
+  .homepage-footer {
+    margin: 0;
+  }
+  .contact-aside {
+    margin-bottom: 12.8rem;
+  }
+  #logo-photo {
+    width: 12.8rem;
+  }
+  .main-text-content .heading-secondary {
+    font-size: 3.8rem;
+  }
+  .small-section-text {
+    font-size: 1.6rem;
+  }
+  .recommend-content {
+    row-gap: 0;
+    padding: 0 3.2rem;
+  }
+  #recommend-box {
+    margin: 9.6rem 0 15.8rem;
+  }
+  footer {
+    padding: 2.8rem;
+  }
+  .price-list-price {
+    width: 15vw;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 38em) {
+  #homepage header h1 {
+    font-size: 5.5rem;
+  }
+  .homepage-main {
+    grid-template-columns: 1fr;
+  }
+  #homepage main {
+    max-height: 100vh;
+    gap: 3.6rem;
+    margin-bottom: 6.4rem;
+    padding: 4.8rem;
+  }
+  .heading-secondary {
+    font-size: 4rem;
+  }
+  #franek-main-photo {
+    width: 60%;
+  }
+  .users-recommendation {
+    padding: 4rem;
+  }
+  #index-gallery {
+    grid-template-areas:
+      "gallery-h3"
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6";
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #about-us-main {
+    grid-template-columns: 1fr;
+  }
+  .about-us .heading-secondary {
+    margin-bottom: 3.2rem;
+  }
+  .price-list-main {
+    padding: 9.6rem 5rem 4.8rem;
+  }
+  .price-list-hour {
+    font-size: 1.8rem;
+  }
+  .price-list-price {
+    width: 17vw;
+  }
+  .price-list-option {
+    margin-top: 4.8rem;
+  }
+  #logo-photo {
+    width: 11.5rem;
+  }
+  #labirynt-google-map {
+    width: 80vw;
+    height: 40vh;
+  }
+  .contact-main {
+    padding: 9.6rem 5rem 4.8rem;
+  }
+  #second-box-about-us {
+    grid-row: 3;
+  }
+  #fourth-box-about-us {
+    grid-row: 7;
+  }
+  .about-us main {
+    row-gap: 4.8rem;
+  }
+}
+@media (max-width: 33em) {
+  #homepage-main {
+    max-height: 50vh;
+  }
+  #homepage header h1 {
+    font-size: 5.3rem;
+  }
+  .goTopBtn {
+    font-size: 4.8rem;
+    padding: 3.2rem;
+  }
+  #recommend-box {
+    margin-bottom: 25.6rem;
+  }
+  .price-list-main {
+    padding: 9.6rem 3.6rem 4.8rem;
+  }
+  .recommend-content {
+    padding: 2.4rem;
+  }
+  .step-img {
+    width: 95%;
+  }
+  .step-description {
+    line-height: 1.5;
+  }
+  .heading-tertiary {
+    font-size: 2.8rem;
+  }
+  #about-us-main {
+    row-gap: 8rem;
+  }
+}
+@media (max-width: 31em) {
+  html {
+    font-size: 45%;
+  }
+  #homepage-main {
+    max-height: 45vh;
+  }
+  #recommend-box {
+    max-height: 80vh;
+  }
+  #labirynt-google-map {
+    width: 70vw;
+    height: 30vh;
+  }
+  .recommend p {
+    font-size: 2rem;
+  }
+  #recommend-box {
+    max-height: 100vh;
+  }
+  .step-description {
+    font-size: 2.1rem;
+  }
+  .heading-tertiary {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 28em) {
+  html {
+    font-size: 42%;
+  }
+  .mobile-menu li a {
+    font-size: 3.2rem;
+  }
+  .main-text-content .heading-secondary {
+    font-size: 4.8rem;
+  }
+  #homepage main p {
+    font-size: 2.4rem;
+  }
+  #homepage main {
+    min-height: 100vh;
+  }
+  #homepage header h1 {
+    font-size: 5.1rem;
+  }
+  #recommend-box {
+    max-height: 90vh;
+  }
+  .price-list-day {
+    width: 40vw;
+    padding: 2rem;
+  }
+  .price-list-price {
+    width: 18vw;
+  }
+  .price-list-hour div li {
+    line-height: 1.4;
+  }
+  #franek-main-photo {
+    width: 80vw;
+  }
+  .recommend p {
+    font-size: 2.2rem;
+  }
+  #recommend-box {
+    max-height: 100vh;
+  }
+  .about-us {
+    padding: 9.6rem 5.2rem;
+  }
+  #about-us-main {
+    row-gap: 4.8rem;
+  }
+  .step-description {
+    font-size: 2.6rem;
+  }
+  .heading-tertiary {
+    font-size: 4.2rem;
+  }
+  .hours-list-day {
+    width: 30vw;
+  }
+  .price-list-hour {
+    font-size: 2rem;
+  }
+}
+/* TODO */
+@media (max-width: 25em) {
+  html {
+    font-size: 40%;
+  }
+  .heading-secondary {
+    font-size: 4.6rem;
+  }
+  #homepage header h1 {
+    font-size: 4.6rem;
+  }
+  #footer {
+    column-gap: 8rem;
+    max-height: 45vh;
+  }
+  #index-gallery .gallery-img {
+    width: 80%;
+  }
+  .goTopBtn {
+    padding: 3.6rem;
+  }
+  aside h3 {
+    font-size: 3.8rem;
+  }
+  #index-gallery .gallery-img {
+    width: 100%;
+  }
+  #recommend-box {
+    margin-bottom: 34rem;
+  }
+  .footer-logo-img {
+    width: 12rem;
+  }
+  #footer {
+    column-gap: 3.6rem;
+  }
+  .mobile-menu li a {
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  .price-list-day {
+    width: 50vw;
+  }
+}

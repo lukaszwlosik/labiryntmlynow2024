@@ -1,0 +1,354 @@
+#homepage header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/dron-main-photo2.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #f0fdf4;
+}
+#homepage header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6.4rem;
+  line-height: 1.05;
+}
+#homepage header nav,
+.sticky-menu {
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 6.4rem 2.4rem 4.8rem;
+  font-size: 2.4rem;
+}
+#homepage header nav ul,
+.sticky-menu ul {
+  gap: 2.4rem;
+  list-style-type: none;
+}
+#logo-photo {
+  width: 8.6rem;
+  transition: transform 0.3s ease-in-out;
+}
+#logo-photo:hover {
+  transform: scale(1.1);
+}
+.nav-link,
+.sticky-menu-link {
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+}
+.nav-link {
+  color: #f0fdf4;
+}
+.nav-link::after,
+.sticky-menu-link::after {
+  content: "";
+  height: 0.4rem;
+  width: 100%;
+  background-color: #2ecb68;
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+.nav-link:hover,
+.sticky-menu-link:hover {
+  color: #2ecb68;
+}
+.nav-link:hover::after,
+.sticky-menu-link:hover::after {
+  opacity: 1;
+}
+.sticky-menu {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #f8fefa;
+  z-index: 999;
+}
+#homepage main {
+  width: 100vw;
+  height: 100vh;
+  padding: 6.4rem 2.4rem 6.4rem 6.4rem;
+  margin-top: 6.4rem;
+  gap: 6.4rem;
+}
+#homepage main p {
+  margin-bottom: 3.2rem;
+  font-size: 2rem;
+  line-height: 1.7;
+}
+#homepage main button {
+  border: none;
+  background-color: #16a34b;
+  color: #f0fdf4;
+  padding: 2.4rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+#homepage main button:hover {
+  background-color: #0d5b2a;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#franek-main-photo {
+  height: 60rem;
+}
+#franek-main-photo:hover {
+  transform: rotate(2deg);
+  transition: all 0.5s ease-in-out;
+}
+aside h3 {
+  font-size: 4.4rem;
+}
+.recommend {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 12.8rem;
+}
+.users-recommendation {
+  padding: 4.8rem 6.4rem;
+  transition: all 0.3s ease-in-out;
+}
+.recommend p {
+  font-size: 1.8rem;
+  padding-top: 0.8rem;
+  line-height: 1.7;
+}
+.recommend-content {
+  padding: 12.8rem 9.6rem 9.6rem;
+  gap: 9.6rem;
+}
+.users-recommendation:hover {
+  background-color: #177f3e;
+  color: #f0fdf4;
+}
+.person-box {
+  gap: 0.8rem;
+  margin-top: 2.4rem;
+}
+.bold-text {
+  font-weight: 600;
+}
+.homepage-main h2,
+.homepage-main p,
+.homepage-main button,
+.homepage-main img,
+.homepage-main .small-section-text,
+.wrapper-gallery h3,
+.wrapper-gallery .gallery-img,
+.aside-gallery .small-section-text,
+.recommend h3,
+.recommend p,
+.recommend div,
+.first-box-about-us-text,
+.first-box-about-us-img,
+.second-box-about-us-text,
+.second-box-about-us-img,
+.third-box-about-us-text,
+.third-box-about-us-img,
+.fourth-box-about-us-text,
+.fourth-box-about-us-img,
+.fifth-box-about-us-text,
+.fifth-box-about-us-img {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: transform 1s, opacity 1s;
+}
+.homepage-main.fade-in :is(h2, p, button, img, .small-section-text),
+.wrapper-gallery.fade-in :is(h3, .gallery-img),
+.recommend.fade-in :is(h3, p, div),
+.small-section-text.fade-in,
+.first-box-about-us-text.fade-in,
+.first-box-about-us-img.fade-in,
+.second-box-about-us-text.fade-in,
+.second-box-about-us-img.fade-in,
+.third-box-about-us-text.fade-in,
+.third-box-about-us-img.fade-in,
+.fourth-box-about-us-text.fade-in,
+.fourth-box-about-us-img.fade-in,
+.fifth-box-about-us-text.fade-in,
+.fifth-box-about-us-img.fade-in {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+.goTopBtn {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: transform 1s, opacity 1s;
+  position: fixed;
+  width: 4.8rem;
+  height: 4.8rem;
+  padding: 1.2rem;
+  background-color: #0d5b2a;
+  bottom: 3.2rem;
+  right: 3.2rem;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.goTopBtn.fade-in {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+.about-us,
+.price-list-main,
+.contact-main {
+  margin: 12.8rem 0;
+  padding: 9.6rem;
+}
+.about-us .heading-secondary {
+  margin-bottom: 9.6rem;
+}
+.about-us main {
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  align-items: center;
+}
+.step-img-box {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.step-img-box::before {
+  content: "";
+  display: block;
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #73c893;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.step-img {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.price-list-main h3 {
+  font-size: 4.4rem;
+}
+.price-list-option {
+  margin-top: 3.2rem;
+}
+.price-list-day {
+  position: relative;
+  top: 2rem;
+  background-color: #16a34b;
+  width: 15vw;
+  text-align: center;
+  border-radius: 1.6rem;
+  color: #f0fdf4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+}
+.price-list-hour {
+  background-color: white;
+  padding: 4rem;
+  font-size: 1.8rem;
+  border-radius: 1.6rem;
+  line-height: 1.6;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-list-hour:hover {
+  background-color: #73c893;
+  transition: background-color 0.3s ease;
+}
+.price-list-price {
+  font-size: 1.8rem;
+  border-radius: 1.6rem;
+  background-color: #16a34b;
+  color: #f0fdf4;
+  font-weight: 600;
+  padding: 2.4rem;
+  text-align: center;
+}
+.price-list-price:hover {
+  background-color: #177f3e;
+}
+.price-list-aside {
+  margin-top: 4.8rem;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.price-list-aside-list {
+  list-style-type: none;
+}
+.hours-list-main {
+  height: 100vh;
+  margin-top: 21rem;
+  padding: 0 6.4rem;
+}
+.hours-list-main h3 {
+  font-size: 4.4rem;
+}
+.hours-list-option {
+  margin-top: 3.2rem;
+}
+.hours-list-day {
+  position: relative;
+  top: 2rem;
+  background-color: #16a34b;
+  width: 10vw;
+  text-align: center;
+  border-radius: 1.6rem;
+  color: #f0fdf4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+}
+.hours-list-hour {
+  background-color: white;
+  padding: 4rem;
+  font-size: 3rem;
+  border-radius: 1.6rem;
+  line-height: 1.6;
+}
+.contact-main {
+  margin: 12.8rem 0 3.2rem 0;
+}
+.contact-main h3 {
+  font-size: 4.4rem;
+}
+.contact-aside {
+  width: 100vw;
+  justify-content: center;
+  margin-bottom: 9.6rem;
+}
+.map-style {
+  border-radius: 1.6rem;
+}
